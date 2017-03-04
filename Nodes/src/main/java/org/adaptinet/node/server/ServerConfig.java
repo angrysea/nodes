@@ -1,0 +1,47 @@
+package org.adaptinet.node.server;
+
+public final class ServerConfig {
+	public static final String ADMINPORT = "adminport";
+	public static final String AUTORELOAD = "autoreload";
+	public static final String CLASSPATH = "classpath";
+	public static final String TYPE = "sockettype";
+	public static final String SOCKETSERVERCLASS = "socketserverclass";
+	public static final String CONNECTION_TIMEOUT = "connectiontimeout";
+	public static final String REQ_TIMEOUT = "requesttimeout";
+	public static final String FAULTTOLDBDRIVER = "faulttoldbdriver";
+	public static final String FAULTTOLDBURL = "faulttoldburl";
+	public static final String FAULTTOLCONNECTCOUNT = "faulttolconnectcount";
+	public static final String HTTP_ROOT = "httproot";
+	public static final String KEY_STORE = "keystore";
+	public static final String KEY_STORE_PASSPHRASE = "keystorepw";
+	public static final String LDAP_PORT = "ldapport";
+	public static final String LDAP_SERVER = "ldapserver";
+	public static final String LICENSE_FILE = "licensefile";
+	public static final String LOG_FILE = "logpath";
+	public static final String MAX_CLIENTS = "maxclients";
+	public static final String MAX_CONNECTIONS = "maxconnections";
+	public static final String NODE_FILE = "nodefile";
+	public static final String PORT = "port";
+	public static final String REGISTRY_FILE = "registryfile";
+	public static final String PROCESSOR_FILE = "processorfile";
+	public static final String SERVLET_CLASSPATH = "servletclasspath";
+	public static final String SECUREPORT = "secureport";
+	public static final String SMTPHOST = "smtphost";
+	public static final String USEFAULTTOL = "usefaulttol";
+	public static final String VERBOSE = "verbose";
+	public static final String WEB_ROOT = "webroot";
+	public static final String XSL_PATH = "xslpath";
+	public static final String IDENTIFIER = "identifier";
+	public static final String SHOWCONSOLE = "showconsole";
+	public static final String MAXNODES = "maxnodes";
+	public static final String LEVELS = "levels";
+	public static final String AUTOCONNECT = "autoconnect";
+	public static final String STANDALONE = "standalone";
+	public static final String CONNECTTYPE = "connecttype";
+	public static final String PROCESSORFACTORY = "processorfactory";
+	public static final String NETWORKAGENT = "networkagent";
+	public static final String USEPROXY = "useproxy";
+	public static final String PROXYADDRESS = "proxyaddress";
+	public static final String HOST = "host";
+	public static final String MESSAGECACHESIZE = "messagecachesize";
+}

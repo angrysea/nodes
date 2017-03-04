@@ -1,0 +1,151 @@
+<script>
+    <header>
+        <function name="checkSymbol"/>
+    </header>
+    <body>
+        <block>
+            <statement>
+                <variable name="results"/>
+            </statement>
+        </block>
+        <block>
+            <statement>
+                <variable name="d"/>
+                <operator type=equal/>
+                <literal value="0"/>
+            </statement>
+        </block>
+        <block>
+            <statement>
+                <keyword type=do/>
+            </statement>
+            <statement>
+                <variable name="results"/>
+                <operator type=plus/>
+                <operator type=equal/>
+                <object name="PortfolioScript">
+                    <method name=symbol>
+                        <parameters>
+                            <parameter>
+                                <object name="PortfolioScript">
+                                    <property name="symbol" index="d"/>
+                                </object>
+                            </parameter>
+                        </parameters>
+                    </method>
+                </object>
+                <variable name="d"/>
+                <opertator type=plusplus/>;
+                } while(d<3);
+
+                var w = 0;
+
+                while(w<3)
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[w]);
+                    w++;
+                }
+
+                var x = 3;
+
+                switch(x)
+                {
+                case 1:
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[0]);
+                    break;
+
+                case 2:
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[1]);
+                    break;
+
+                case 3:
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[2]);
+                    break;
+
+                default:
+                    break;
+                }
+
+                if (PortfolioScript.symbol[0] == "IBM")
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[0]);
+                }
+                else
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[1]);
+                }
+
+                var y = 0;
+
+                for(y = 0; y<3; y++)
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[y]);
+                }
+
+                return results;
+            }
+            </script>
+
+
+
+
+            checkSymbol()
+            {
+                var results;
+
+                var d = 0;
+
+                do
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[d]);
+                    d++;
+                } while(d<3);
+
+                var w = 0;
+
+                while(w<3)
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[w]);
+                    w++;
+                }
+
+                var x = 3;
+
+                switch(x)
+                {
+                case 1:
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[0]);
+                    break;
+
+                case 2:
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[1]);
+                    break;
+
+                case 3:
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[2]);
+                    break;
+
+                default:
+                    break;
+                }
+
+                if (PortfolioScript.symbol[0] == "IBM")
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[0]);
+                }
+                else
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[1]);
+                }
+
+                var y = 0;
+
+                for(y = 0; y<3; y++)
+                {
+                    results += PortfolioScript.symbol(PortfolioScript.symbol[y]);
+                }
+
+                return results;
+            }
+    </body>
+</script>
