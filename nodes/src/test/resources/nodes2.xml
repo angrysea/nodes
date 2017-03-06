@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Nodes>
+	<Node>
+		<URI>http://169.254.71.83:1443</URI>
+		<Name>Port 1443</Name>
+		<Time>1294341727112</Time>
+	</Node>
+	<Node>
+		<URI>http://169.254.71.83:1448</URI>
+		<Name>Port 1448</Name>
+		<Time>1294341745768</Time>
+	</Node>
+	<Node>
+		<URI>http://169.254.71.83:1449</URI>
+		<Name>Port 1449</Name>
+		<Time>1294341745768</Time>
+	</Node>
+</Nodes>
