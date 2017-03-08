@@ -4,7 +4,7 @@
 		<Name>Chat</Name>
 		<Description>Chat</Description>
 		<Type>Samples.Chat.Chat</Type>
-		<Classpath>C:/workspace/adaptinet/samples/target/classes</Classpath>
+		<Classpath>C:/workspace/amg/samples/target/classes</Classpath>
 		<Preload>0</Preload>
 	</Processor>
 </Processors>
